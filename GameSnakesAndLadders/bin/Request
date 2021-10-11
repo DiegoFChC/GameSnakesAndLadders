@@ -1,0 +1,14 @@
+* En el tablero está por formado por 100 casillas (matriz de 10X10) (1-100)
+* En el tablero se visualizan escaleras. Las escaleras  hacen que el jugador avance. 
+* En el tablero se visualizan serpientes. Las serpientes hacen que el  jugador retroceda. 
+* El jugador humano puede lanzar un dado mediante un evento de acción o del  mouse
+que incorpora un componente gráfico que visualiza la cara del dado y dicha  cara es generada aleatoriamente. 
+* El juego incorpora dos jugadores simulados 
+	Acciones:lanzar el dado y  desplazarse tantas casillas como indique la cara visible del dado en el tablero de  juego. 
+* El avatar del jugador se desplaza tantas casillas como indique la cara visible del  dado, una vez este lo ha lanzado. 
+* La forma en que se mueve el avatar de cualquier jugador es siguiendo el orden de  los números, según la casilla en la que esté parado. 
+* Todos los jugadores inician en la casilla 1. 
+* Cuando algún jugador llegue a la casilla 100, la ronda de juego termina y el juego  reporta que el ganador fue el jugador que llegó a
+dicha casilla. 
+* El jugador humano puede abandonar el juego en el momento que desee.
+* El jugador humano puede jugar tantas rondas del juego como desee sin necesidad  de reiniciar la ejecución del programa.
